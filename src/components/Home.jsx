@@ -165,13 +165,18 @@ export default function HomeHero() {
 
       {/* Keyframes */}
       <style>
-        {`
-          @keyframes floatCircular {
-            0% { transform: rotate(0deg) translate(160px) rotate(0deg); }
-            100% { transform: rotate(360deg) translate(160px) rotate(-360deg); }
-          }
-        `}
-      </style>
+{`
+  @keyframes floatCircular {
+    0% { 
+      transform: rotate(0deg) translate(140px) rotate(0deg);
+    }
+    100% { 
+      transform: rotate(360deg) translate(140px) rotate(-360deg);
+    }
+  }
+`}
+</style>
+
     </section>
   );
 }
