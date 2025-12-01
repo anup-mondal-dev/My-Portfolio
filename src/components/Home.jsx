@@ -67,7 +67,7 @@ export default function HomeHero() {
 
   return (
     <section className="bg-gray-950 text-white px-6 md:px-24 py-24 overflow-hidden h-screen flex items-center">
-      <div className="flex flex-col md:flex-row items-center justify-between w-full gap-20">
+      <div className="flex flex-col md:flex-row items-center justify-between w-full md:gap-40 md:mx-50">
 
         {/* LEFT CONTENT */}
         <div className="max-w-xl space-y-7">
